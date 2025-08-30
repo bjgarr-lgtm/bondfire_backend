@@ -1,10 +1,11 @@
-name = "bondfire-e2ee"
+# wrangler.toml
+name = 'bondfire-backend2'
 main = "worker.js"
 compatibility_date = "2024-11-20"
 
 # Bind your KV namespace
 [[kv_namespaces]]
-binding = "BOND_WRANGLER"
-id = "bondfire_wrangler"
+binding = "WRANGLER"
+id = "bondfire-wrangler"
 # preview_id can be different if you use wrangler dev
 # preview_id = "REPLACE_WITH_PREVIEW_NAMESPACE_ID"
